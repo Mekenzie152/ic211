@@ -121,6 +121,7 @@ public class part1 {
         while (loop == 0)
         {
             String cmd = sc.next();
+            System.out.print("> ");
 
             if (cmd.equals("sections"))
             {

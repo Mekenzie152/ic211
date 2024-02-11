@@ -134,6 +134,13 @@ public class part2 {
                     }
                 }
             }
+            else if (cmd.equals("man"))
+            {
+                for( int i = 0; i < len; i++)
+                {
+                    printData(info[i]);
+                }
+            }
             else if (cmd.equals("quit"))
             {
                 loop = 1;
