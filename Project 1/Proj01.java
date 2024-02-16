@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 
 
-public class part3 {
+public class Proj01 {
 //adding a string to the front of StringNode P
     //temp StringNode to make the front of P
     public static StringNode addToFront(String val, StringNode P){
