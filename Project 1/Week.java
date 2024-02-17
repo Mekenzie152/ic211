@@ -1,4 +1,5 @@
 import java.util.*;
+import ic211.*;
 
 public class Week {
     private boolean[][] periods; // Grid to represent the availability of each period

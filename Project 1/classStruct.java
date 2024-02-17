@@ -6,4 +6,9 @@ public class classStruct {
     public String sect;
     public String times;
     public String room;
+
+    public void printData() {
+        System.out.println(num + " " + sect + " " + times + " " + room);
+    }
+
 }
