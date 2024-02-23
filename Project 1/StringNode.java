@@ -7,6 +7,7 @@ public class StringNode{
     public StringNode next; //next is automatically a pointer in Java 
 
 
+    //this adds to the front of a linked list
     public static StringNode addToFront(String val, StringNode P) {
         StringNode temp = new StringNode();
         temp.data = val;
@@ -14,6 +15,7 @@ public class StringNode{
         return temp;
     }
 
+    //this gives the lenght of a linked list
     public static int length(StringNode P) {
         if (P == null) {
             return 0;
@@ -22,6 +24,7 @@ public class StringNode{
         }
     }
 
+    //this turns a liked list into an array
     public static String[] listToArray(StringNode P) {
         int n = length(P);
         String[] newArray = new String[n];
@@ -32,6 +35,7 @@ public class StringNode{
         return newArray;
     }
 
+    //this added to the back of a linked list
     public static StringNode addToBack(String val, StringNode P) {
         StringNode newNode = new StringNode();
         newNode.data = val;
@@ -49,6 +53,7 @@ public class StringNode{
         }
     }
 
+    //this reads in a file and turns the text in it into a string array
     public static String[] get(String fname) {
         StringNode words = new StringNode();
         Scanner zq = null;
