@@ -5,7 +5,11 @@ Section 1151
 
 Problems with code(if any):
 
+<<<<<<< HEAD
     The only issue that I was not able to resolve was that there are inconsitences in spaces when it comes to printing the weeks, while it looks the same when you print it out the submit server is deceting inconsitencies in what it has for accepable outcomes compared to what my code is printing out. Other than that the code works as it should and as it requires by the submit server.
 
 
     I do not want this submition to count this is testing for my own sake to try and get the formatiing of the week class down to what the submit server wants please do not count this sumbition as my offical one, the one I want to count for the grade it the sumbition from 2024-02-16 23:56:53. Thank you and have a good morning/evening/afternoon.
+=======
+                   
+>>>>>>> d54aa893df3a614f1be1124e5d04dd207e91bfcb
