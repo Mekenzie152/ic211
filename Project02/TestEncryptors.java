@@ -1,12 +1,14 @@
-// This matches the basic in/out functionality of Part 1.
+// This matches the basic in/out functionality of Part 1..
 // As you implement more Encryptors, you just put an "add"
 // line in for them, and they become part of thie test driver.
 import java.util.*;
-public class TestEncryptors {
+public class TestEncryptors  {
   public static void main(String[] args) throws Throwable {
     // Create ArrayList of all supported encryptors
     ArrayList<Encryptor> E = new ArrayList<Encryptor>();
     E.add(new Clear());
+    E.add(new Caesar());
+    E.add(new Vigenere());
 
     // Get alg,psw,msg from user
     System.out.print("algorithm: ");

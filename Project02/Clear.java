@@ -5,4 +5,4 @@ public class Clear implements Encryptor {
     public void   init(char[] key) { }
     public String encrypt(String plain) { return plain; }
     public String decrypt(String cipher){ return cipher; }
-  }
+}
