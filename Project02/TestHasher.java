@@ -38,20 +38,21 @@
 
 
 
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.*;
 
 public class TestHasher {
     public static void main(String[] args) throws Exception { // Add throws Exception
         ArrayList<Hasher> E = new ArrayList<Hasher>();
         E.add(new Padcut());
+        E.add(new Shift());
+
 
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("algorithm: ");
-        String encalg = scanner.nextLine(); // Use scanner instead of System.console().readLine()
+        String encalg = System.console().readLine(); // Use scanner instead of System.console().readLine()
         System.out.print("password : ");
-        String password = scanner.nextLine();
+        String password = System.console().readLine();
 
         // Find index of hasher (throw exception if not found)
         int i = -1;
